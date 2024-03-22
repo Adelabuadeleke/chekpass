@@ -1,0 +1,73 @@
+/* overidding mui default styles */
+/* email input styles overide */
+.email_input.css-batk84-MuiInputBase-root-MuiFilledInput-root::before {
+  content: "";
+}
+
+.email_input
+  .css-batk84-MuiInputBase-root-MuiFilledInput-root:hover:not(
+    .Mui-disabled,
+    .Mui-error
+  ):before {
+  border: none;
+}
+.email_input .css-batk84-MuiInputBase-root-MuiFilledInput-root::before {
+  border: none;
+}
+
+.email_input .css-batk84-MuiInputBase-root-MuiFilledInput-root::after {
+  border: none;
+}
+
+.email_input .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  color: #1e1e1e;
+}
+
+.email_input .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #787878;
+}
+
+.email_input .css-batk84-MuiInputBase-root-MuiFilledInput-root {
+  background-color: #fff;
+}
+
+.email_input .css-batk84-MuiInputBase-root-MuiFilledInput-root.Mui-focused {
+  background-color: #fff;
+}
+
+/* password input styles overide */
+
+.password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root::before {
+  content: "";
+}
+
+.password_input
+  .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root:hover:not(
+    .Mui-disabled,
+    .Mui-error
+  ):before {
+  border: none;
+}
+.password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root::before {
+  border: none;
+}
+
+.password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root::after {
+  border: none;
+}
+
+.password_input .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  color: #1e1e1e;
+}
+
+.password_input .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #787878;
+}
+
+.password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root {
+  background-color: #fff;
+}
+
+.password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root.Mui-focused {
+  background-color: #fff;
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './styles/App.css';
 import { TextField, FormControl, InputLabel, FilledInput,InputAdornment, IconButton,    } from '@mui/material';
 import { VisibilityOutlined ,VisibilityOffOutlined } from '@mui/icons-material';
 // import makeStyles from '@mui/material';
@@ -29,7 +29,7 @@ function App() {
     <>
      <section className='checkpass__login flex flex-col  justify-center items-center sm:min-h-screen font-lato'>
       <div className="checkpass__logo w-full border-b border-grey flex justify-center items-center py-4 px-4 sm:hidden mb-10 ">
-       <img src="src/assets/checkpass_logo.png" alt="checkpass logo" className=''/>
+       <img src="../checkpass_logo.png" alt="checkpass logo" className=''/>
       </div>
       <form action="">
         <div className="flex flex-col justify-center items-center w-[100%] sm:w-[496px] bg-blue-200 flex-shrink-0">

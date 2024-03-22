@@ -12,6 +12,11 @@ export default {
       textColor:{
         'w': "#ffffff"
       },
+
+      fontFamily:{
+        'figtree': "Figtree",
+        'lato':"Lato"
+      },
       fontWeight:{
         '800': 800
       },
@@ -21,7 +26,8 @@ export default {
 
     },
     colors:{
-      'chekpass':'#E1083C'
+      'chekpass':'#E1083C',
+      'grey': '#D7D7D7'
     }
   },
   plugins: [],

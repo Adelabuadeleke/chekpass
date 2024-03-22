@@ -1,3 +1,7 @@
+/* Fonts import --> Lato, Figtree */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
 /* overidding mui default styles */
 /* email input styles overide */
 .email_input.css-batk84-MuiInputBase-root-MuiFilledInput-root::before {
@@ -70,4 +74,10 @@
 
 .password_input .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root.Mui-focused {
   background-color: #fff;
+}
+
+/* style for both inputs */
+.email_input .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root,
+.password_input .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Lato";
 }

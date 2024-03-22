@@ -34,7 +34,7 @@ function App() {
       <form action="">
         <div className="flex flex-col justify-center items-center w-[100%] sm:w-[496px] bg-blue-200 flex-shrink-0">
         <div className="checkpass__logo">
-          <img src="src/assets/checkpass_logo.png" alt="checkpass logo" className='mb-10  hidden sm:block'/>
+          <img src="../checkpass_logo.png" alt="checkpass logo" className='mb-10  hidden sm:block'/>
         </div>
         <h1 className='text-[32px] sm:text-3xl md:text-[36px] lg:text-5xl font-[900] lg:font-extrabold mb-12 font-figtree'>Welcome Back!</h1>
 
